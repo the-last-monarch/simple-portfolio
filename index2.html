@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Shadow | Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          <span>Shadow</span>
+        </div>
+        <div class="links">
+          <div class="link" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+            <a href="#">Home</a>
+          </div>
+          <div class="link" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+            <a href="#about">About</a>
+          </div>
+          <div class="link" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
+            <a href="#skills">Skills</a>
+          </div>
+          <div class="link" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+            <a href="#services">Services</a>
+          </div>
+          <div class="link" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="500">
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      </div>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="main-container">
+          <div class="image" data-aos="zoom-out" data-aos-duration="1500" data-aos-delay="600">
+            <img src="./assets/Sung-Jin-Woo.jpeg" alt="Shadow profile" />
+          </div>
+          <div class="content">
+            <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">
+              Hey, I'm <span>Shadow</span>
+            </h1>
+            <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+              I'm a <span class="typewriter-text">Web Developer & Python Developer</span>
+              <label>|</label>
+            </div>
+            <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+              I’m Shadow, a passionate Computer Science student at WCTM focused on full-stack web development.
+              I’m currently building projects with JavaScript, Python, and Django while sharpening my frontend
+              skills with HTML, CSS, and React.
+            </p>
+
+            <div class="social-links">
+                <a href="https://github.com/the-last-monarch" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300">
+                  <i class="fa-brands fa-github" id="githubLogo"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/narpender-grewal-96752b342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+                  <i class="fa-brands fa-linkedin" id="linkedinLogo"></i>
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500">
+                  <i class="fa-brands fa-instagram" id="instagramLogo"></i>
+                </a>
+                <a href="https://twitter.com/" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600">
+                  <i class="fa-brands fa-x-twitter" id="twitterLogo"></i>
+                </a>
+              </div>
+              
+            <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+              <a href="https://www.linkedin.com/in/narpender-grewal-96752b342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400">
+              <button>Hire me</button>
+              </a>
+              <a href="assets/narpender-cv.png" download="narpender-cv.png">
+              <button>Download CV</button>
+            </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="about" id="about">
+        <div class="content">
+          <div class="title" data-aos="fade-up" data-aos-duration="1500">
+            <span>My Works</span>
+          </div>
+          <div class="about-details">
+            <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+              <img src="./assets/Sung-Jin-Woo.jpeg" alt="My Works" />
+            </div>
+            <div class="right">
+              <div class="topic" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">
+                Featured Projects
+              </div>
+              <ul data-aos="flip-down" data-aos-duration="1500" data-aos-delay="300" style="color: white; font-size: 1.1rem; line-height: 1.8;">
+                <li><strong>To-Do List</strong> – <a href="#">[Add Link Here]</a></li>
+                <li><strong>Notepad App</strong> – <a href="#">[Add Link Here]</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200">
+          <span>My Skills</span>
+        </div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200">
+              Skills Reflect Our Knowledge
+            </div>
+            <p data-aos="fade-right" data-aos-duration="1200" data-aos-delay="400">
+              Here are some of the technologies and programming languages I work with:
+            </p>
+            <div class="experience" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">
+              <div class="num">2</div>
+              <div class="exp">Years of <br /> Experience</div>
+            </div>
+          </div>
+          <div class="boxes">
+            <!-- <div class="box">
+              <div class="topic">HTML</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="per">90%</div>
+            </div> -->
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="per">85%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Python</div>
+              <div class="per">95%</div>
+            </div>
+            <div class="box">
+              <div class="topic">React</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Django</div>
+              <div class="per">70%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Java (learning)</div>
+              <div class="per">60%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1200">
+          <span>My Services</span>
+        </div>
+        <div class="boxes">
+          <div class="box" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
+            <div class="icon"><i class="fas fa-desktop"></i></div>
+            <div class="topic">Web Development</div>
+            <p>I build responsive and modern websites using HTML, CSS, JavaScript, and Python frameworks.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+            <div class="icon"><i class="fa fa-code"></i></div>
+            <div class="topic">Python Programming</div>
+            <p>Efficient and scalable backend development with Python, including Django-based web apps and scripts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title" data-aos="fade-up" data-aos-duration="1500">
+          <span>Contact Me</span>
+        </div>
+        <div class="text">
+          <div class="topic" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">
+            Have any Project?
+          </div>
+          <p>
+            Let's build something amazing! If you have a project in mind or just want to say hi, feel free to reach out.
+          </p>
+          <a href="mailto:narpendergrewal123@gmail.com">
+          <div class="button" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="400">
+            <button>Let's Chat</button>
+          </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="text">
+        <span>
+          Made by <a href="https://github.com/the-last-monarch" target="_blank">Shadow</a>
+          &#169; 2025 All Rights Reserved
+        </span>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
